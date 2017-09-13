@@ -1,0 +1,16 @@
+/* override css styles of the main theme here */
+
+
+section.main .content .markdown li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.markdown>h3{
+  color: royalblue!important;
+  font-size: larger!important;
+}
+.markdown ul li em{
+  color: crimson;
+}
