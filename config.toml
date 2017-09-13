@@ -1,4 +1,4 @@
-baseurl                = "http://norskurs.netlify.com"
+baseurl                = "http://norskkurs.netlify.com"
 builddrafts            = false
 canonifyurls           = true
 contentdir             = "content"
