@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Norsk Kurs</title>
-    <link>http://norskurs.netlify.com/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Norsk Kurs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>no-no</language>
     <lastBuildDate>Tue, 12 Sep 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://norskurs.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Homework</title>
-      <link>http://norskurs.netlify.com/tags/homework/</link>
+      <link>/tags/homework/</link>
       <pubDate>Tue, 12 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://norskurs.netlify.com/tags/homework/</guid>
+      <guid>/tags/homework/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Lekser</title>
-      <link>http://norskurs.netlify.com/tags/lekser/</link>
+      <link>/tags/lekser/</link>
       <pubDate>Tue, 12 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://norskurs.netlify.com/tags/lekser/</guid>
+      <guid>/tags/lekser/</guid>
       <description></description>
     </item>
     

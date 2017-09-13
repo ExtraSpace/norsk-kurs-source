@@ -1,4 +1,10 @@
-<div class='code-tabs'>
-    <ul class="nav nav-tabs"></ul>
-    <div class="tab-content">{{ .Inner }}</div>
-</div>
+<!-- <div class='code-tabs'> -->
+<!-- <ul class="nav nav-tabs"></ul> -->
+<!-- <div class="tab-content">{{ .Inner }}</div> -->
+<!-- </div> -->
+
+<ul class="nav nav-tabs" role="tablist">
+    <li class="nav-item">
+        <a class="nav-link active" data-toggle="tab" href="#home" role="tab">{{ .Inner }}</a>
+    </li>
+</ul>

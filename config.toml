@@ -9,7 +9,7 @@ theme                  = "cocoa-hugo-theme"
 author                 = "Raju Rimal"
 title                  = "Raju Rimal"
 pygmentsuseclasses     = true
-#disqusshortname       = "therimalaya" # Comment out to disable Disqus.
+#disqusshortname       = "therimalaya" 
 #googleAnalytics       = "UA-123-45"
 pluralizelisttitles    = false
 ignoreFiles            = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
@@ -31,36 +31,36 @@ identifier             = "about"
 url                    = "/about/"
 
 [params]
-latestpostscount       = 5                             # how many posts to display on the home page
-i18n_flags             = false                         # whether to display small country flags for available translations
+latestpostscount       = 5                             
+i18n_flags             = false                         
 author                 = "Raju Rimal"
 title                  = "Norsk Kurs"
-cachebuster            = true                          # add the current unix timestamp in query string for cache busting css assets
+cachebuster            = true                          
 dateform               = "Jan 2, 2006"
 dateformfull           = "Mon Jan 2 2006 15:04:05 MST"
 description            = "Don't panic"
 email                  = "therimalaya@gmail.com"
-extracssfiles          = [ "/css/override.css" , "/bootstrap/dist/css/bootstrap.min.css"]       # In your `static` directory, add/remove files as necessary.
-extrascript            = ["/jquery/dist/jquery.slim.min.js", "/popper.js/dist/umd/popper.js", "/bootstrap/dist/js/bootstrap.min.js"]
+extracssfiles          = [ "/css/override.css" , "/css/bootstrap.min.css"]       
+extrascript            = ["/js/jquery.slim.min.js", "/js/popper.min.js", "/js/bootstrap.min.js"]
 faviconfile            = "img/leaf.ico"
 github                 = "//github.com/therimalaya"
 highlightjs            = true
 instagram              = "//instagram.com/therimalaya"
 lang                   = "en"
 linkedin               = "//linkedin.com/in/therimalaya"
-noshowreadtime         = false                         # if true, don't show "<x> minutes read" in posts
-selfintro              = ""                            # appears in the site header when set to a non-empty string
+noshowreadtime         = false                         
+selfintro              = ""                            
 twitter                = "//twitter.com/therimalaya"
-# highlightjslanguages = ["go"]                        # additional languages not included in the "common" set
+# highlightjslanguages = ["go"]                        
 # highlightjsStyle     = "darcula"
 
-piwik                  = false                         # If true, Piwik integration is enabled
-# piwik_url            = "//www.example.com/piwik/"    # URL to your Piwik installation. Must End with a slash
-# piwik_id             = 2                             # Id of your site in Piwik
+piwik                  = false                         
+# piwik_url            = "//www.example.com/piwik/"    
+# piwik_id             = 2                             
 
-avatar                 = "img/profile.jpg" # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
-# gravatar             = ""                # do not use in the same time as avatar
+avatar                 = "img/profile.jpg" 
+# gravatar             = ""                
 
 # The following are DEPRECATED.
-gatracker              = "XYZ" # use googleAnalytics instead
-initials               = "ad"  # displayed on single post page; deprecated in v0.3.0.
+gatracker              = "XYZ" 
+initials               = "ad"  
