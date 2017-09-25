@@ -1,0 +1,3 @@
+<ul class="nav nav-{{ if .Get `tabs` }}tabs{{ else }}pills{{ end }}{{ if .Get `addclass` }} {{ .Get `addclass` }}{{ end }}" role="tablist">
+    {{ .Inner }}
+</ul>

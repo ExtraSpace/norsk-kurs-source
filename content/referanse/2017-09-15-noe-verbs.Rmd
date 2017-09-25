@@ -1,0 +1,43 @@
+---
+title: 'Verb'
+author: Raju Rimal
+date: '2017-09-25'
+slug: verb
+categories:
+  - Referense
+tags: [referense, verb]
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  comments = NULL,
+  echo = FALSE,
+  message = FALSE,
+  warning = FALSE
+)
+options(knitr.kable.NA = '')
+```
+
+```{r, eval = FALSE}
+library(tidyverse)
+verb_list <- readxl::read_xlsx("../../static/verb-list.xlsx")
+irregular <- verb_list %>% 
+    filter(Gruppe %in% c("UV", "UV/HV")) %>% 
+    select(-Gruppe)
+# knitr::kable(irregular, format = "html",
+#     col.names = paste0("**", names(irregular), "**"))
+DT::datatable(irregular)
+```
+
+| **English**   | **Infinitiv** | **Presens** | **Preteritum** | **Perfektum** |
+|---------------+---------------+-------------+----------------+---------------|
+| to be         | å være        | er          | var            | har vært      |
+| to eat        | å spise       | spiser      | spiste         | har spist     |
+| to teach      | å lese        | leser       | leste          | har lest      |
+| to write      | å skriv       | skriver     | skrev          | har skrevet   |
+| to go         | å dra         | drar        | dro            | har dratt     |
+| to walk       | å gå          | går         | gikk           | har gått      |
+| to stand      | å stå         | står        | stod           | har stått     |
+| to understand | å forstå      | forstår     | forstod        | har forstått  |
+| to say        | å si          | sier        | sa             | har sagt      |
+| to see        | å se          | ser         | så             | har sett      |

@@ -1,0 +1,5 @@
+<li class="nav-item">
+    <a class="nav-link{{ if .Get `addclass` }} {{ .Get `addclass`}}{{ end }}" data-toggle="tab" href="#{{ .Get `id` }}" role="tab">
+        {{ .Get `title` }}
+    </a>
+</li>

@@ -2,23 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Norsk Kurs</title>
-    <link>http://norskkurs.netlify.com/</link>
+    <link>/</link>
     <description>Recent content on Norsk Kurs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>no-no</language>
-    <lastBuildDate>Tue, 12 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 25 Sep 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://norskkurs.netlify.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Verb</title>
+      <link>/referanse/verb/</link>
+      <pubDate>Mon, 25 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/referanse/verb/</guid>
+      <description>  English Infinitiv Presens Preteritum Perfektum    to be å være er var har vært  to eat å spise spiser spiste har spist  to teach å lese leser leste har lest  to write å skriv skriver skrev har skrevet  to go å dra drar dro har dratt  to walk å gå går gikk har gått  to stand å stå står stod har stått  to understand å forstå forstår forstod har forstått  to say å si sier sa har sagt  to see å se ser så har sett    </description>
+    </item>
+    
+    <item>
       <title>Uke 1: Dag 1</title>
-      <link>http://norskkurs.netlify.com/lekser/uke-1-dag-1/</link>
+      <link>/lekser/uke-1-dag-1/</link>
       <pubDate>Tue, 12 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://norskkurs.netlify.com/lekser/uke-1-dag-1/</guid>
+      <guid>/lekser/uke-1-dag-1/</guid>
       <description>Setninger med verb: å være, å spise
-Verb: å være Infinitiv: å være    Entall Pronomen Flertall Pronomen     Jeg liker å være på jobb. Vi liker å være på jobb.   (I like to be in work.) (We like to be in work.)   Du liker å være på jobb. Dere liker å være på jobb.   (You like to be in work.</description>
+Verb: å være infinitiv   Presens   Preteritum   Presens Prefektum    å være    Entall Pronomen Flertall Pronomen     Jeg liker å være på jobb. Vi liker å være på jobb.   (I like to be in work.) (We like to be in work.)   Du liker å være på jobb.</description>
     </item>
     
   </channel>

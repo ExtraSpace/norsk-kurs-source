@@ -1,4 +1,5 @@
-baseurl                = "http://norskkurs.netlify.com"
+# baseurl                = "https://norskkurs.netlify.com"
+baseurl                = "/"
 builddrafts            = false
 canonifyurls           = true
 contentdir             = "content"
@@ -25,8 +26,14 @@ identifier             = "blog"
 url                    = "/"
 
 [[menu.main]]
-name                   = "Om Meg"
+name                   = "Referanse"
 weight                 = -110
+identifier             = "referanse"
+url                    = "/referanse/"
+
+[[menu.main]]
+name                   = "Om Meg"
+weight                 = -100
 identifier             = "about"
 url                    = "/about/"
 
@@ -40,8 +47,8 @@ dateform               = "Jan 2, 2006"
 dateformfull           = "Mon Jan 2 2006 15:04:05 MST"
 description            = "Don't panic"
 email                  = "therimalaya@gmail.com"
-extracssfiles          = [ "/css/override.css" , "/css/bootstrap.min.css"]       
-extrascript            = ["/js/jquery.slim.min.js", "/js/popper.min.js", "/js/bootstrap.min.js"]
+extracssfiles          = [ "/css/override.css" , "/css/bootstrap.min.css", "/css/datatable.min.css"]       
+extrascript            = ["/js/jquery.slim.min.js", "/js/popper.min.js", "/js/bootstrap.min.js", "/js/datatable.min.js"]
 faviconfile            = "img/leaf.ico"
 github                 = "//github.com/therimalaya"
 highlightjs            = true
