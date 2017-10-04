@@ -52,11 +52,10 @@ options(knitr.kable.NA = '')
 ```{r, echo = FALSE}
 library(tidyverse)
 verb_list <- readxl::read_xlsx("../../static/verb-list.xlsx")
-irregular <- verb_list %>%
-    filter(Gruppe %in% c("UV", "UV/HV")) %>%
-    select(-Gruppe)
 # knitr::kable(irregular, format = "html",
 #     col.names = paste0("**", names(irregular), "**"))
-DT::datatable(irregular)
+DT::datatable(verb_list, rownames = FALSE,
+              caption = "Norsk Verbs: bruk har med Perfektum",
+              options = list(pageLength = 10, authwidth = TRUE))
 ```
 
