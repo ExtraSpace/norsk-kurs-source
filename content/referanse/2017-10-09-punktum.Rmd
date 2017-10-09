@@ -1,0 +1,34 @@
+---
+title: 'Punktum'
+author: Raju Rimal
+date: '2017-10-09'
+slug: punktum
+categories:
+  - Referense
+tags: [referense, punktum]
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  comments = NULL,
+  echo = FALSE,
+  message = FALSE,
+  warning = FALSE
+)
+options(knitr.kable.NA = '')
+```
+
+| **tegn** | **Norsk**     | **English**     |
+|----------|---------------|-----------------|
+| .        | punktum       | fullstop        |
+| !        | utropstegn    | exclamation     |
+| ,        | komma         | comma           |
+| :        | kolon         | colon           |
+| ""       | anførselstegn | quotation       |
+| ?        | spørsmålstegn | question mark   |
+| ;        | semi-kolon    | semi-colon      |
+| é        | aksent        | accent          |
+| ()       | parentesr     | brackets        |
+| []       | klammer       | square brackets |
+| -        | bindestrek    | hyphen          |
+| @        | alfakrøll     | at-the-rate     |

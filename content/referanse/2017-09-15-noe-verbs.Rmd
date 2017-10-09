@@ -32,6 +32,12 @@ options(knitr.kable.NA = '')
 | to understand | å forstå      | forstår     | forstod        | har forstått  |
 | to say        | å si          | sier        | sa             | har sagt      |
 | to see        | å se          | ser         | så             | har sett      |
+| to travel     | å reise       | reiser      | reiste         | har reist     |
+| to come       | å komme       | kommer      | kom            | har kommet    |
+| to live       | å bo          | bor         | bodde          | har bodd      |
+| to try        | å prøve       | prøver      | prøvde         | har prøvd     |
+| to do         | å gjøre       | gjør        | gjørde         | har gjort     |
+
 
 ## Modal Verbs
 
