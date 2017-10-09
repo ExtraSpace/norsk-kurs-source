@@ -1,11 +1,11 @@
 ---
-title: 'Punktum'
+title: 'tengsetting'
 author: Raju Rimal
 date: '2017-10-09'
-slug: punktum
+slug: tengsetting
 categories:
   - Referense
-tags: [referense, punktum]
+tags: [referense, tengsetting]
 ---
 
 ```{r, include = FALSE}
